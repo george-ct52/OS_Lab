@@ -7,7 +7,7 @@ void swap(int* arr, int i, int j)
     arr[j] = temp; 
 }
 
-//to sort the processes according to thge arrival time 
+//to sort the processes according to priority 
 void sortpriority(int pro[],int bt[],int p[], int n)
 {
   for(int i=0;i<n-1;i++)

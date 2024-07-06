@@ -85,11 +85,10 @@ for(int i =0;i<n;i++)
 {
   printf("\n%d\t %d\t %d\t %d\t %d\t%d ",p[i],at[i],bt[i],ct[i],tat[i],wt[i]);
 }
- printf("Average Turnaround Time : %d,atat);
- printf("Average Waiting Time : %d,awt);
+ printf("\n Average Turnaround Time : %d",atat);
+ printf("\n Average Waiting Time : %d",awt);
 return 0;
 }
-
 
 
 
